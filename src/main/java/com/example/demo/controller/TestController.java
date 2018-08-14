@@ -24,6 +24,5 @@ public class TestController {
     @RequestMapping("/tomakeMode")
     public String tomakeMode(@RequestParam String strJson){
         return qrCodeService.tomakeMode(strJson);
-
-}
+    }
 }
